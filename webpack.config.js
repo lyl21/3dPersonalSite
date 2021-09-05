@@ -32,8 +32,8 @@ module.exports = {
     contentBase: path.join(__dirname, ''),
     compress: true,
     watchContentBase: true,
-    port: 80,
-    host: 'lyl21.github.io', //your ip address
+    port: 8080,
+    host: 'localhost', //your ip address
     disableHostCheck: true, //coment these out for prod
   },
   node: {
